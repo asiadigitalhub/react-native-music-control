@@ -135,8 +135,8 @@ public class MusicControlModule extends ReactContextBaseJavaModule implements Co
             for(int i=0; i<actions.length; i++) {
                 actions[i] = i;
             }
-            style.setShowActionsInCompactView(actions);
-          //  nb.setStyle(style);
+           // style.setShowActionsInCompactView(actions);
+            nb.setStyle(style);
         }
     }
 
